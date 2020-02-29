@@ -727,7 +727,7 @@
 		<repository>
 			<id>Releases</id>
 			<name>qiuxs Release Repository</name>
-			<url>http://nexus.qiuxs.cn/nexus/content/repositories/releases/</url> -->
+			<url>http://nexus.qiuxs.cn/nexus/content/repositories/releases/</url>
 			<!-- <url>http://home.qiuxs.com:9025/nexus/content/repositories/releases/</url> -->
 		</repository>
 		<snapshotRepository>
