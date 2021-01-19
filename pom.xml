@@ -17,6 +17,7 @@
 		<oltu.version>1.0.2</oltu.version>
 		<rocketmq.version>4.4.0</rocketmq.version>
 		<dubbo.version>2.7.4.1</dubbo.version>
+		<netty.verion>4.1.25.Final</netty.verion>
 	</properties>
 
 	<dependencyManagement>
@@ -650,6 +651,11 @@
 				<groupId>org.jsoup</groupId>
 				<artifactId>jsoup</artifactId>
 				<version>1.11.3</version>
+			</dependency>
+			<dependency>
+				<groupId>io.netty</groupId>
+			    <artifactId>netty-all</artifactId>
+			    <version>${netty.verion}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
